@@ -2,7 +2,7 @@ import Certificate from "../models/Certificate.js";
 
 import generateCertificateBuffer from '../utils/ImageUtils.js';
 import uploadToPinata  from '../utils/PinataUtils.js';
-import createCertificateNFT from '../utils/CertificateNFTUtils.js';
+import {createCertificateNFT} from '../utils/CertificateNFTUtils.js';
 import { BlockFrostAPI } from '@blockfrost/blockfrost-js';
 
 const PINATA_PREFIX_WEBSITE = "ipfs://"; 
