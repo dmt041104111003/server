@@ -1,6 +1,7 @@
 import {Notification} from "../models/Notification.js";
-import {mongoose} from "mongoose";
-
+import mongoose from "mongoose";
+import Course from "../models/Course.js";
+import User from "../models/User.js";
 
 
 export const getCertificateStatus = async (req, res) => {
