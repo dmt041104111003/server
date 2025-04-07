@@ -112,4 +112,4 @@ async function generateCertificateBuffer(studentName, educatorName, courseTitle,
     }
 }
 
-export { generateCertificateImage, generateCertificateBuffer };
+export default { generateCertificateImage, generateCertificateBuffer };
