@@ -1,10 +1,10 @@
-import User from "../models/User.js"
+import {User} from "../models/User.js"
 import {Purchase} from "../models/Purchase.js";
-import Stripe from "stripe"
-import Course from "../models/Course.js";
+import {Stripe} from "stripe"
+import {Course} from "../models/Course.js";
 import {CourseProgress}  from "../models/CourseProgress.js";
-import mongoose from "mongoose";
-import moment from "moment"
+import {mongoose} from "mongoose";
+i
 
 export const getUserData = async (req, res) => {
     try {
