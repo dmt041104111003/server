@@ -4,7 +4,7 @@ import Stripe from "stripe"
 import Course from "../models/Course.js";
 import {CourseProgress}  from "../models/CourseProgress.js";
 import mongoose from "mongoose";
-i
+
 
 export const getUserData = async (req, res) => {
     try {
