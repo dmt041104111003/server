@@ -1,4 +1,4 @@
-import {Certificate} from "../models/Certificate.js";
+import Certificate from "../models/Certificate.js";
 
 import {generateCertificateBuffer} from '../utils/ImageUtils.js';
 import {uploadToPinata}  from '../utils/PinataUtils.js';
